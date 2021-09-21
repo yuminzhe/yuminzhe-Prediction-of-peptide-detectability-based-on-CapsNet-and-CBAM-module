@@ -6,11 +6,10 @@ Data availability
 ##
 In the "data" folder, we provide the all the datasets used in the paper. If you want to use them, please download them first.
 
-##
 model
+##
 In the "model" folder, “params.pkl” is the best trained model (params1.pkl, Params2.pkl, …, Params10.pkl are the models for the ten-fold cross-validation). If you want to use them, please download them first.
 
-##
 Usage
-###
+##
 You can upload the file CapseNet.ipynb to Colab (http://colab.research.google.com) for training and testing in the GPU environment.
