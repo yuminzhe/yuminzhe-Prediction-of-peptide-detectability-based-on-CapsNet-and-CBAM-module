@@ -3,6 +3,7 @@ We proposes a model combining CapsNet and CBAM attention module to predict the d
 
 ##
 Data availability
+###
 In the "data" folder, we provide the all the datasets used in the paper. If you want to use them, please download them first.
 
 ##
@@ -11,4 +12,5 @@ In the "model" folder, “params.pkl” is the best trained model (params1.pkl, 
 
 ##
 Usage
+###
 You can upload the file CapseNet.ipynb to Colab (http://colab.research.google.com) for training and testing in the GPU environment.
