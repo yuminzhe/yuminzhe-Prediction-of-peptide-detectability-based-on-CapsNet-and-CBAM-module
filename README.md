@@ -20,8 +20,9 @@ We also provide scripts for testing different data sets.We give an example to sh
 ![csv](https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/blob/main/figure1.png)<br>
 
 (2)Then, Download our trained model, the website is https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/tree/main/model </br>
-(3)Execute the following command to realize the detectability prediction of peptides：
+(3)Execute the following command to realize the detectability prediction of peptides：</br>
 
 ```bash
 python sequence_test.py --test=test.csv --model=params.pkl --result=result.txt
 ```
+--test represents the directory where the input peptide chain file is located, --model is the directory where the trained model is located, and --result sets the location of the result output.
