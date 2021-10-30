@@ -28,4 +28,7 @@ python sequence_test.py --test=test.csv --model=params.pkl --result=result.txt
 --test represents the directory where the input peptide chain file is located, --model is the directory where the trained model is located, and --result sets the location of the result output.</br>
 The running result is shown as：<br>
 ![result1](https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/blob/main/figure2.jpg)<br>
+The output of “result.txt” (saving the detectability prediction result of peptides) is shown as</br>
+ ![result2](https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/blob/main/figure3.jpg)<br>
+Ten numbers respectively represent the results of the detectability of the predicted peptides from ten sequences inputted above, where 0 represents undetectable and 1 represents detectable.
 
