@@ -26,6 +26,6 @@ We also provide scripts for testing different data sets.We give an example to sh
 python sequence_test.py --test=test.csv --model=params.pkl --result=result.txt
 ```
 --test represents the directory where the input peptide chain file is located, --model is the directory where the trained model is located, and --result sets the location of the result output.</br>
-The running result is shown as：
+The running result is shown as：<br>
 ![result1](https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/blob/main/figure2.jpg)<br>
 
