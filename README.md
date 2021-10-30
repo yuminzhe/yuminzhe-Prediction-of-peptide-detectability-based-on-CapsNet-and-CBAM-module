@@ -16,10 +16,12 @@ You can upload the file CapseNet.ipynb to Colab (http://colab.research.google.co
 
 ## Test personal data set
 We also provide scripts for testing different data sets.We give an example to show the execution process：</br>
-(Ⅰ)Prepare the peptide chain file (the file extension is .csv), and the format of peptides in this file is shown as
+(1)Prepare the peptide chain file (the file extension is .csv), and the format of peptides in this file is shown as</br>
 ![csv](https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/blob/main/figure1.png)<br>
 
-(Ⅱ)Then, you can load and use the pretrained model as follows:
+(2)Then, Download our trained model, the website is https://github.com/yuminzhe/yuminzhe-Prediction-of-peptide-detectability-based-on-CapsNet-and-CBAM-module/tree/main/model </br>
+(3)Execute the following command to realize the detectability prediction of peptides：
+
 ```bash
-import torch
-import esm
+python sequence_test.py --test=test.csv --model=params.pkl --result=result.txt
+```
